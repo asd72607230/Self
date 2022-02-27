@@ -262,10 +262,15 @@ h1, .h1 {
   font-size: calc(1.375rem + 1.5vw);
 }
 
+.project-item {
+  border: 3px solid #284664;
+  padding: 0px;
+  text-align: center;
+}
+
 .project-title h3{
   color: #284664;
   font-weight: bold;
-  border-bottom: 3px solid black;
 }
 
 @media (min-width: 1200px) {
@@ -11614,6 +11619,11 @@ html {
     font-size: 1.5rem;
   }
 }
+
+.portfolio {
+  background-color: gainsboro;
+}
+
 .portfolio .portfolio-item {
   cursor: pointer;
   position: relative;
