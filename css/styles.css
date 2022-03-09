@@ -5165,6 +5165,10 @@ textarea.form-control-lg {
   color: #101214;
 }
 
+#portfolio .container {
+  margin-top: -80px;
+}
+
 @-webkit-keyframes progress-bar-stripes {
   0% {
     background-position-x: 1rem;
