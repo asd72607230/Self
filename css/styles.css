@@ -122,11 +122,6 @@ body {
   color: white;
 }
 
-.skill-page {
-  display: flex;
-  justify-content: space-between;
-}
-
 .card {
   padding: 20px 0;
 }
@@ -262,15 +257,38 @@ h1, .h1 {
   font-size: calc(1.375rem + 1.5vw);
 }
 
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center; 
+  justify-content: center;
+}
+
 .project-item {
-  border: 3px solid #284664;
-  padding: 0px;
-  text-align: center;
+  margin-left: 50px;
 }
 
 .project-title h3{
-  color: #284664;
+  background-color: #1abc9c;
+  border-radius: 8px;
+  padding: 5px;
+  color: white;
   font-weight: bold;
+}
+
+.skill-page {
+  display: flex;
+  justify-content: space-between;
+}
+
+#about {
+  height: 700px;
+}
+
+#about .card {
+  background-color: var(--bs-secondary);
+  width: 30%;
+  height: 300px;
 }
 
 @media (min-width: 1200px) {
