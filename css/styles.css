@@ -652,10 +652,6 @@ output {
   display: inline-block;
 }
 
-iframe {
-  border: 0;
-}
-
 summary {
   display: list-item;
   cursor: pointer;
@@ -1833,6 +1829,12 @@ progress {
     margin-left: 25%;
   }
 
+  iframe {
+    border: 0;
+    width: 560px; 
+    height: 315px;
+  }
+
   .offset-xl-4 {
     margin-left: 33.33333333%;
   }
@@ -1925,6 +1927,7 @@ progress {
     --bs-gutter-y: 3rem;
   }
 }
+
 @media (min-width: 1400px) {
   .col-xxl {
     flex: 1 0 0%;
@@ -11699,6 +11702,19 @@ html {
   background-color: #1a252f;
 }
 
+@media screen and (max-width: 1200px) {
+  .project-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; 
+    justify-content: center;
+  }
+  
+  iframe {
+    border: 0;
+    width: 100%; 
+  }
+}
 @media screen and (max-width: 576px) {
   .skill-page{
     flex-direction: column;
